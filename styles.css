@@ -67,10 +67,26 @@ section {
 #menu li:hover {
     background-color: #f8f9fa;
 }
+/* ... Existing styles ... */
 
-/* Contact */
-#contact p {
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.image-container img {
+    width: calc(50% - 10px);
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* This will give the images rounded edges */
+    /* ... other img styles ... */
 }
+
+
+.image-container img {
+    width: calc(50% - 10px); /* This ensures two images fit side by side with a small gap in between */
+    max-width: 100%;
+    height: auto;
+}
+/* ... Existing styles ... */
+
+body {
+    background-color: #FFDAB9; /* This is a light orange color */
+    /* ... other body styles ... */
+}
+
